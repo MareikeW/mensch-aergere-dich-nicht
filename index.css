@@ -1,0 +1,59 @@
+.grid {
+    /* 13x13 Kästchen à 50px x 50px = 650px */
+    width: 676px;
+    height: 676px;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black;
+}
+
+.grid div {
+    width: 50px;
+    height: 50px;
+    margin: 1px; 
+}
+
+/* Felder */
+.empty-field,
+.red-basket,
+.red-startField,
+.red-goal,
+.blue-basket,
+.blue-startField,
+.blue-goal,
+.green-basket,
+.green-startField,
+.green-goal, 
+.yellow-basket,
+.yellow-startField,
+.yellow-goal {
+    border: black solid 2.5px; 
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.red-basket,
+.red-startField,
+.red-goal {
+    background-color: red;     
+}
+
+.blue-basket,
+.blue-startField,
+.blue-goal {
+    background-color: blue;   
+}
+
+.green-basket,
+.green-startField,
+.green-goal {
+    background-color: lightgreen;  
+}
+
+.yellow-basket,
+.yellow-startField,
+.yellow-goal {
+    background-color: rgba(255, 255, 0, 0.87);   
+}
+
+
